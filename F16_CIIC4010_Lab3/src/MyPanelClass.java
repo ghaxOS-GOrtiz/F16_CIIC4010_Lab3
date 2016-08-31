@@ -65,15 +65,15 @@ public class MyPanelClass extends JPanel {
 //                        g.drawPolygon(p2);
                         
                         g.setColor(Color.WHITE);
-                        g.fillRect(0, 29, 230, 29);
+                        g.fillRect(0, getHeight() / 5, getWidth(), getHeight() / 5);
                         g.setColor(Color.WHITE);
-                        g.fillRect(0, 87, 230, 29);
+                        g.fillRect(0, getHeight() / 5 * 3, getWidth(), getHeight() / 5);
                         
                         g.setColor(Color.BLUE);
                         Polygon p3 = new Polygon();
                         p3.addPoint(0, 0);
-                        p3.addPoint(125, 73);
-                        p3.addPoint(0, 145);
+                        p3.addPoint(125, getHeight() / 2);
+                        p3.addPoint(0, getHeight());
                         g.setColor(Color.BLUE);
                         g.fillPolygon(p3);
 //                        
