@@ -9,6 +9,10 @@ public class Lab3Exercises {
 		myFrame.setLocation(573, 284);
 		// Changes were made. Switched from (400, 100) to (200, 200)
 		myFrame.setSize(200, 200);
+		
+		   MyPanelClass myPanel = new MyPanelClass();
+           myFrame.getContentPane().add(myPanel);
+		
 		myFrame.setVisible(true);
 	}
 } 
